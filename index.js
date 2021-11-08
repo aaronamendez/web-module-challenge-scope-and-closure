@@ -31,11 +31,18 @@ console.log(
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
+
+  The count is not a global variable in count 1, whereas in count 2 it is global.
   
   2. Which of the two uses a closure? How can you tell?
+
+  Counter 1, there is a return function within the counterMaker() function that it invokes.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+  counter2 be better?  
+
+  If we wanted to abstract the count value so that it can be used globally.
+
 */
 
 // counter1 code
@@ -117,9 +124,9 @@ function getInningScore(inning) {
 
 /* ⚾️⚾️⚾️ Task 5: scoreboard() ⚾️⚾️⚾️
 Use the scoreboard function below to do the following:
-  1. Receive the callback function `getInningScore` from Task 4
-  2. Receive the callback function `inning` from Task 2
-  3. Receive a number of innings to be played
+  1. // Receive the callback function `getInningScore` from Task 4
+  2. // Receive the callback function `inning` from Task 2
+  3. // Receive a number of innings to be played
   4. Return an array where each of it's index values equals a string stating the
   Home and Away team's scores for each inning.  Not the cummulative score.
   5. If there's a tie at the end of the innings, add this message containing the score to the end of the array:  "This game will require extra innings: Away 12 - Home 12"  (see tie example below)
@@ -156,7 +163,7 @@ Use the scoreboard function below to do the following:
 ]  
   */
 
-function scoreboard(/* CODE HERE */) {
+function scoreboard(getInningScore, inning, numberOfInnings) {
 	/* CODE HERE */
 }
 
