@@ -37,6 +37,7 @@ console.log(
   2. Which of the two uses a closure? How can you tell?
 
   Counter 1, there is a return function within the counterMaker() function that it invokes.
+  The closure also uses a variable in the parent function that was invoked.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
   counter2 be better?  
