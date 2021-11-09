@@ -41,8 +41,8 @@ console.log(
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
   counter2 be better?  
-
-  If we wanted to abstract the count value so that it can be used globally.
+  Count 1 if we wanted to 
+  Count 2 If we wanted to abstract the count value so that it can be used globally.
 
 */
 
